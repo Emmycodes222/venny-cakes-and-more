@@ -40,7 +40,7 @@ export default function ProductCard({ product, onPreview }) {
           aria-label={`${hasListedPrice ? "Order" : "Ask for the price of"} ${product.name} via WhatsApp`}
         >
           <WhatsAppIcon className="button-whatsapp-icon whatsapp-icon" />
-          {hasListedPrice ? "Order via WhatsApp" : "Ask for price on WhatsApp"}
+          {hasListedPrice ? "Order via WhatsApp" : "Ask about pricing on WhatsApp"}
         </a>
       </div>
     </article>

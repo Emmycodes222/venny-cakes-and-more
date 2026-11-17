@@ -25,7 +25,7 @@ const orderingSteps = [
   },
   {
     title: "Send an enquiry",
-    description: "Tell us the date, quantity and any design ideas. It opens straight in WhatsApp."
+    description: "Tell us the date, quantity, and any design ideas. Your enquiry will open directly in WhatsApp."
   },
   {
     title: "We confirm the details",
@@ -172,8 +172,8 @@ export default function HomePage({ loading, onFinishLoading }) {
               ))}
             </h1>
             <p className="sub">
-              Cakes for all occasions, pastries, zobo, yoghurt, parfait, beautiful bouquets
-              and lots more — made with quality ingredients and trusted recipes.
+              We make cakes for every occasion, along with pastries, zobo, yoghurt, parfait,
+              beautiful bouquets, and much more all using quality ingredients and trusted recipes.
             </p>
             <div className="cta">
               <a href="#menu" className="btn gold">Explore our treats</a>
@@ -208,9 +208,9 @@ export default function HomePage({ loading, onFinishLoading }) {
               <p className="page-kicker">A LITTLE ABOUT US</p>
               <h2>Thoughtfully made. Happily shared.</h2>
               <p>
-                At Vany Cake and More, we make cakes for all occasions, pastries, zobo,
-                yoghurt, parfait, beautiful bouquets and lots more. All our products are
-                made with quality ingredients and trusted recipes to give you the very best.
+                At Vany Cake and More, we make cakes for every occasion, along with pastries,
+                zobo, yoghurt, parfait, beautiful bouquets, and much more. We use quality
+                ingredients and trusted recipes to make every order special.
               </p>
               <Link className="text-link" to="/about">
                 More about Vany <span aria-hidden="true">→</span>

@@ -150,7 +150,7 @@ export const products = [
     category: "Food trays",
     image: images.foodTray,
     imageAlt: "Assorted food tray with rice, snacks and cake",
-    description: "Celebrate with a tray arranged for your gathering and chosen menu.",
+    description: "Choose your preferred menu, and we’ll arrange a food tray for your gathering.",
     price: "Price on request",
     search: "food tray food trays combo meal"
   },

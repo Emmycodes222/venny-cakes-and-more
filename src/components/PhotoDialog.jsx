@@ -56,7 +56,7 @@ export default function PhotoDialog({ product, onClose }) {
             rel="noopener noreferrer"
           >
             <WhatsAppIcon className="button-whatsapp-icon whatsapp-icon" />
-            {hasListedPrice ? "Order on WhatsApp" : "Ask on WhatsApp"}
+            {hasListedPrice ? "Order on WhatsApp" : "Ask about pricing on WhatsApp"}
           </a>
         </div>
       </div>

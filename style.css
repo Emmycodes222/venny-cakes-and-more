@@ -576,7 +576,7 @@ h1,h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: .45;
+  opacity: .55;
   animation: kb 20s ease-in-out infinite alternate;
 }
 
@@ -591,7 +591,7 @@ h1,h2 {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg,#17130f 15%,transparent);
+  background: linear-gradient(90deg,#17130f99,#17130f75 50%,#17130f99);
   z-index: 1;
 }
 
@@ -599,6 +599,7 @@ h1,h2 {
   position: relative;
   z-index: 2;
   padding-top: 90px;
+  text-align: center;
 }
 
 .kicker {
@@ -611,6 +612,8 @@ h1,h2 {
   font-size: clamp(2.4rem,6.5vw,5rem);
   font-weight: 800;
   max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .split span {
@@ -626,7 +629,7 @@ h1,h2 {
 
 .sub {
   max-width: 480px;
-  margin: 10px 0 28px;
+  margin: 10px auto 28px;
   opacity: .9;
 }
 
@@ -634,6 +637,7 @@ h1,h2 {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .stats {
@@ -642,6 +646,7 @@ h1,h2 {
   margin-top: 50px;
   flex-wrap: wrap;
   font-size: .9rem;
+  justify-content: center;
 }
 
 .stats>div {
@@ -1265,7 +1270,7 @@ footer p {
   }
 
   .hero:before {
-    background: #17130fb0;
+    background: #17130f80;
   }
 
 }
@@ -1277,6 +1282,60 @@ footer p {
 
   .sec {
     padding: 64px 0;
+  }
+
+  .sec .wrap {
+    text-align: center;
+  }
+
+  .two {
+    justify-items: center;
+  }
+
+  .text-link {
+    justify-content: center;
+  }
+
+  .catalog-intro,
+  .review-intro>p:last-of-type {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tools {
+    justify-content: center;
+  }
+
+  #tabs {
+    justify-content: center;
+  }
+
+  #search {
+    text-align: center;
+  }
+
+  .cb {
+    text-align: center;
+  }
+
+  .ask {
+    justify-content: center;
+  }
+
+  .how-step b {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .review-card-top,
+  .review-card figcaption {
+    justify-content: center;
+  }
+
+  .review-stamp {
+    position: static;
+    margin: 18px auto 0;
+    transform: rotate(12deg);
   }
 
   #nav {
@@ -1408,7 +1467,7 @@ footer p {
   }
 
   .maker-layout {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
   }
 

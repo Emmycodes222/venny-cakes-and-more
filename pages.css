@@ -61,10 +61,12 @@
   gap: clamp(36px,7vw,100px);
   padding-top: 84px;
   padding-bottom: 90px;
+  text-align: center;
 }
 
 .page-hero-copy {
   max-width: 570px;
+  margin-inline: auto;
 }
 
 .page-kicker {
@@ -91,7 +93,7 @@
 
 .page-hero-copy>p:not(.page-kicker) {
   max-width: 510px;
-  margin-bottom: 26px;
+  margin: 0 auto 26px;
   color: #554b3c;
   font-size: 1.04rem;
 }
@@ -99,7 +101,7 @@
 .story-image-wrap {
   position: relative;
   max-width: 500px;
-  justify-self: end;
+  justify-self: center;
   padding: 0 12px 22px 0;
   perspective: 1000px;
 }
@@ -168,6 +170,7 @@
   display: grid;
   grid-template-columns: .85fr 1.15fr;
   gap: clamp(30px,8vw,120px);
+  text-align: center;
 }
 
 .story-columns h2,.approach-section h2 {
@@ -177,6 +180,7 @@
 
 .story-prose {
   max-width: 650px;
+  margin-inline: auto;
   color: #514b40;
 }
 
@@ -196,6 +200,8 @@
 
 .approach-section> .wrap>h2 {
   max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .approach-grid {
@@ -212,6 +218,7 @@
   border-radius: 4px 26px 4px 26px;
   background: linear-gradient(145deg,#29221b,#17130f);
   box-shadow: 0 16px 30px #0004;
+  text-align: center;
 }
 
 .approach-card>span {
@@ -219,7 +226,7 @@
   place-items: center;
   width: 42px;
   height: 42px;
-  margin-bottom: 22px;
+  margin: 0 auto 22px;
   border-radius: 50%;
   background: var(--gold);
   color: var(--ink);
@@ -245,8 +252,13 @@
 .page-next-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 24px;
+  text-align: center;
+}
+
+.page-next-inner>div {
+  max-width: 700px;
 }
 
 .page-next h2 {
@@ -255,6 +267,8 @@
 }
 
 .page-next-inner>div>p:last-child {
+  max-width: 580px;
+  margin: 0 auto;
   color: #514b40;
 }
 
@@ -298,6 +312,7 @@
   grid-template-columns: .75fr 1.25fr;
   align-items: start;
   gap: clamp(32px,8vw,110px);
+  text-align: center;
 }
 
 .contact-aside {
@@ -312,6 +327,8 @@
 
 .contact-aside>p:not(.page-kicker):not(.contact-note) {
   max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
   color: #514b40;
   margin-bottom: 30px;
 }
@@ -319,6 +336,7 @@
 .contact-detail {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 14px;
   padding: 15px 0;
   border-top: 1px solid #17130f18;
@@ -362,7 +380,7 @@
 .contact-note {
   margin-top: 25px;
   padding: 14px 16px;
-  border-left: 3px solid var(--chili);
+  border-top: 3px solid var(--chili);
   background: #d6432b0d;
   color: #554b3c;
   font-size: .78rem;
@@ -378,7 +396,9 @@
 
 .form-heading {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 20px;
   margin-bottom: 24px;
   padding-bottom: 14px;
   border-bottom: 1px solid #17130f20;
@@ -425,7 +445,9 @@
 }
 
 .submit-enquiry {
-  margin-top: 22px;
+  display: flex;
+  width: fit-content;
+  margin: 22px auto 0;
 }
 
 .form-status {
@@ -556,7 +578,7 @@
   }
 
   .page-next-inner {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
   }
 

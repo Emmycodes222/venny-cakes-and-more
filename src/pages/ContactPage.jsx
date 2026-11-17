@@ -113,8 +113,8 @@ export default function ContactPage() {
           <p className="page-kicker">CAKES · TREATS · BOUQUETS</p>
           <h1>Let’s make your moment <em>lovely.</em></h1>
           <p>
-            Tell us what you’re looking for — a celebration cake, pastries, a refreshing
-            treat, a bouquet or something else.
+            Tell us what you are looking for a celebration cake, pastries, a refreshing
+            treat, a bouquet, or something else.
           </p>
         </div>
       </section>
@@ -123,7 +123,7 @@ export default function ContactPage() {
         <div className="wrap contact-layout">
           <div className="contact-aside">
             <p className="page-kicker">SAY HELLO</p>
-            <h2>We’d love to hear your idea.</h2>
+            <h2>We would love to hear your idea.</h2>
             <p>Send an enquiry to ask about our treats, availability or a custom order.</p>
             <div className="contact-detail">
               <span className="contact-icon" aria-hidden="true">
@@ -172,7 +172,7 @@ export default function ContactPage() {
               </span>
             </div>
             <p className="contact-note">
-              We’ll prepare your enquiry in WhatsApp so you can review it and send it directly.
+              We will prepare your enquiry on WhatsApp so you can review it and send it directly.
             </p>
           </div>
 
