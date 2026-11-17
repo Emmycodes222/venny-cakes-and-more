@@ -29,6 +29,7 @@ npm run preview
 - `src/data/products.js` holds the menu items, categories, and customer reviews.
 - `src/config.js` holds the business contact details and WhatsApp link helper.
 - `src/index.css` is the stylesheet entry point; it imports the existing `style.css` and `pages.css`.
+- The site follows the visitor's light or dark device appearance preference.
 - `images/` contains the original image files; they are kept in place and used by the React asset registry.
 - `about.html` and `contact.html` are retained as legacy compatibility paths and route to their React pages. `404.html` mounts the shared React app so unknown Vercel routes display the same not-found page with an HTTP 404 response.
 

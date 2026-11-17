@@ -1798,3 +1798,61 @@ html:not(.js) #pre {
   height: 23px;
   flex-basis: 23px;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    background: radial-gradient(ellipse at 12% 18%,#f2b13414,transparent 30%),radial-gradient(ellipse at 86% 60%,#6aa84f10,transparent 28%),#17130f;
+    color: var(--cream);
+  }
+
+  .sec:not(.dark),
+  .how,
+  .review-section {
+    background-color: #211e19;
+    color: var(--cream);
+  }
+
+  .catalog-intro,
+  .how-step p,
+  .review-intro>p:last-of-type {
+    color: #d2c8b7;
+  }
+
+  .product-category,
+  .review-eyebrow {
+    color: #f2c56f;
+  }
+
+  .text-link,
+  .ask {
+    color: #ff9a83;
+  }
+
+  #tabs button,
+  #search {
+    border-color: #fff8ea;
+    color: var(--cream);
+  }
+
+  #tabs button.on,
+  #tabs button:hover {
+    background: var(--cream);
+    color: var(--ink);
+  }
+
+  .card,
+  .how-step {
+    background: linear-gradient(145deg,#302a22,#25211b);
+    border-color: #ffffff20;
+    color: var(--cream);
+    box-shadow: 0 5px 0 #100e0b,0 14px 30px #0005;
+  }
+
+  .empty {
+    color: var(--cream);
+  }
+}

@@ -597,3 +597,80 @@
 .not-found .btn {
   margin-top: 26px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .page-kicker {
+    color: #f2c56f;
+  }
+
+  .page-hero {
+    background: radial-gradient(ellipse at 87% 45%,#f2b13426,transparent 35%),linear-gradient(135deg,#25211b,#1b1814);
+    color: var(--cream);
+  }
+
+  .page-hero h1 em {
+    color: #ff9a83;
+  }
+
+  .page-hero-copy>p:not(.page-kicker),
+  .story-prose,
+  .page-next-inner>div>p:last-child,
+  .contact-aside>p:not(.page-kicker):not(.contact-note) {
+    color: #d2c8b7;
+  }
+
+  .story-section,
+  .page-next {
+    background: #211e19;
+    color: var(--cream);
+  }
+
+  .approach-card {
+    background: linear-gradient(145deg,#302a22,#211e19);
+  }
+
+  .contact-detail {
+    border-color: #fff8ea30;
+  }
+
+  .contact-detail small {
+    color: #d2c8b7;
+  }
+
+  .contact-icon {
+    color: #f2c56f;
+  }
+
+  .contact-note {
+    background: #d6432b20;
+    color: #f0dfc8;
+  }
+
+  .event-form {
+    border-color: #ffffff20;
+    background: linear-gradient(145deg,#302a22,#25211b);
+    color: var(--cream);
+    box-shadow: 0 6px 0 #100e0b,0 24px 50px #0005;
+  }
+
+  .form-heading {
+    border-color: #fff8ea30;
+    color: #f2c56f;
+  }
+
+  .event-form input,
+  .event-form select,
+  .event-form textarea {
+    border-color: #fff8ea40;
+    background: #1b1814;
+    color: var(--cream);
+  }
+
+  .form-status {
+    color: #ff9a83;
+  }
+
+  .form-status.ok {
+    color: #a7d991;
+  }
+}
